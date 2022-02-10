@@ -40,13 +40,13 @@ botonIniciarJuego.addEventListener("click", function(event){
             }  
         }
         if (contadorAciertos == palabraElegida.length){
-            dibujarFinDelJuego("Felicidades que ganastes", "green");
+            dibujarFinDelJuego("Felicidades, ganastes!!!", "green");
             contadorErrores = 10;
             return;
         }
 
         if (contadorErrores == 9){
-            dibujarFinDelJuego("Taminate el juego", "red");
+            dibujarFinDelJuego("Traminaste el juego", "red");
             return;
         }   
     }, false);
